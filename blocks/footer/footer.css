@@ -1,0 +1,12 @@
+@import url(./__link/footer__link.css);
+@import url(./__links/footer__links.css);
+@import url(./__copyright/footer__copyright.css);
+.footer {
+    padding: 0;
+    max-width: 1184px;
+    margin: auto;
+    border: 1px solid red;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
