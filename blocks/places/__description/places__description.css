@@ -1,3 +1,19 @@
 .places__description {
     grid-area: texts;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+    .places__description {
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .places__description {
+        width: 90%;
+        margin: auto;
+    }
 }

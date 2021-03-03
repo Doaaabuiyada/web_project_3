@@ -1,3 +1,17 @@
 .places__ref {
+    margin: 0;
+    padding: 0;
     grid-area: reference;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    justify-content: flex-end;
+    width: 1fr;
+}
+
+@media screen and (max-width: 425px) {
+    .places__ref {
+        width: 90%;
+        margin: auto;
+    }
 }

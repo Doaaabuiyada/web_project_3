@@ -1,9 +1,0 @@
-@import url(./__link/languages__link.css);
-@import url(./__link/_active/languages__link_active.css);
-.languages {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    display: flex;
-    gap: 18px;
-}
