@@ -4,7 +4,7 @@
     line-height: 1.7;
     letter-spacing: 0.2em;
     grid-area: url;
-    width: 1f;
+    width: 1fr;
 }
 
 @media screen and (max-width: 768px) and (min-width: 425px) {
