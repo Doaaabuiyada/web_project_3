@@ -1,4 +1,6 @@
 .cover__image {
     width: 100%;
+    grid-area: s / end;
+    z-index: 1;
     opacity: 0.8;
 }

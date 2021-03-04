@@ -1,10 +1,7 @@
 .cover__body {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    grid-area: s / end;
+    z-index: 2;
     display: flex;
     flex-direction: column;
     gap: 32px;
-    text-align: center;
 }

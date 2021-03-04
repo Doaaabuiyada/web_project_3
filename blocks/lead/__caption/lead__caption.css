@@ -8,6 +8,7 @@
     margin-top: 8px;
     height: 1.4em;
     display: inline;
+    font-family: Inter-Regular;
 }
 
 @media screen and (max-width: 768px) and (min-width: 425px) {

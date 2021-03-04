@@ -1,5 +1,8 @@
 .cover__overlay {
     padding: 0;
     margin: 0;
-    position: relative;
+    display: grid;
+    align-items: center;
+    grid-template-columns: [s] 1fr [end];
+    grid-template-rows: [s] 1fr [end];
 }

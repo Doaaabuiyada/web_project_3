@@ -5,6 +5,7 @@
     /* max-height: 208px; */
     display: table-cell;
     height: 100%;
+    font-family: Inter-Regular;
 }
 
 @media screen and (max-width: 768px) and (min-width: 425px) {
