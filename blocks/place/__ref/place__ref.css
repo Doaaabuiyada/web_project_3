@@ -1,4 +1,4 @@
-.places__ref {
+.place__ref {
     margin: 0;
     padding: 0;
     grid-area: reference;
@@ -6,12 +6,10 @@
     flex-direction: column;
     gap: 4px;
     justify-content: flex-end;
-    width: 1fr;
-    font-family: Inter-Regular;
 }
 
 @media screen and (max-width: 425px) {
-    .places__ref {
+    .place__ref {
         width: 90%;
         margin: auto;
     }

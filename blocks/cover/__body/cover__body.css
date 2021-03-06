@@ -1,7 +1,0 @@
-.cover__body {
-    grid-area: s / end;
-    z-index: 2;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-}

@@ -5,6 +5,8 @@
     line-height: 1.17;
     display: block;
     margin-bottom: 4px;
+    opacity: 1;
+    transition: opacity 1s;
 }
 
 @media screen and (max-width: 425px) {
@@ -13,4 +15,8 @@
         line-height: 1.11;
         margin-bottom: 6px;
     }
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
 }

@@ -1,3 +1,10 @@
+@import url(./__title/place__title.css);
+@import url(./__url-heading/place__url-heading.css);
+@import url(./__link/place__link.css);
+@import url(./__image/place__image.css);
+@import url(./__paragraph/place__paragraph.css);
+@import url(./__description/place__description.css);
+@import url(./__ref/place__ref.css);
 .place {
     display: grid;
     grid-auto-columns: auto;
@@ -5,19 +12,19 @@
     gap: 40px 48px;
 }
 
-@media screen and (max-width:1024px) and (min-width: 768px) {
+@media screen and (max-width:1024px) {
     .place {
         gap: 32px 48px;
     }
 }
 
-@media screen and (max-width: 768px) and (min-width: 425px) {
+@media screen and (max-width: 768px) {
     .place {
-        gap: 20px 48px;
+        gap: 28px 48px;
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 425px) {
     .place {
         grid-template-areas: "title" "reference" "image" "texts";
         gap: 30px;

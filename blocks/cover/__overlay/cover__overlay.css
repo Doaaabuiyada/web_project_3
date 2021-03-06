@@ -1,8 +1,15 @@
 .cover__overlay {
     padding: 0;
-    margin: 0;
-    display: grid;
-    align-items: center;
-    grid-template-columns: [s] 1fr [end];
-    grid-template-rows: [s] 1fr [end];
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: rgba(42, 44, 47, 0.3);
+    justify-content: center;
+    text-decoration: none;
+    height: 0;
+    padding-top: 31.25%;
+    padding-bottom: 31.25%;
+    overflow: hidden;
+    text-align: justify;
 }
