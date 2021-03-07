@@ -5,7 +5,14 @@
     font-size: 72px;
     line-height: 1.06;
     grid-area: title;
+    width: 100%;
     max-width: 460px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__title {
+        max-width: 440px;
+    }
 }
 
 @media screen and (max-width: 868px) {

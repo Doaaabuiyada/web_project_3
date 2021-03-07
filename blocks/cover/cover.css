@@ -9,7 +9,3 @@
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
-
-.cover:hover .cover__overlay {
-    background-color: rgba(42, 44, 47, 0.8);
-}

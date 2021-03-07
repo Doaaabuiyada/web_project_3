@@ -13,3 +13,7 @@
     overflow: hidden;
     text-align: justify;
 }
+
+.cover:hover .cover__overlay {
+    background-color: rgba(42, 44, 47, 0.8);
+}
